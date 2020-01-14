@@ -1,0 +1,216 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url(../imgs/bg.png);
+	background-size: cover;
+}
+.box
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	padding: 40px;
+	background: rgba(0,0,0, .8);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0, .5);
+	border-radius: 10px;
+}
+.box h2
+{
+	margin: 0 0 30px;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+}
+.box a
+{
+	position: absolute;
+	padding: 20px;
+	font-size: 12px;
+	color: #fff;
+	text-decoration: none;
+}
+.box p
+{
+	font-size: 14px;
+	margin: 0 0 30px;
+	padding-top: 20px;
+	color: #fff;
+	text-align: left;
+}
+
+.box .inputBox
+{
+	position: relative;
+}
+
+.box .inputBox input
+{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	background: transparent;
+}
+
+.box .inputBox br
+{
+	margin: 10px 0;
+}
+.box .inputBox select 
+{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 12px;
+	color: #3E6D01;
+	letter-spacing: 1px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	background: transparent;
+}
+
+.box .inputBox select option
+{
+	width: 100%;
+	padding: 15px 0;
+	font-size: 12px;
+	color: #3E6D01;
+	outline: none;
+	background: transparent;
+}
+
+.box .inputBox label
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;
+	pointer-events: none;
+	transition: .5s;
+}
+
+.box .inputBoxObs textarea
+{
+	width: 100%;
+	height: 150px;
+	font-size: 12px;
+	color: #fff;
+	border: 1px solid #fff;
+	background: transparent;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	outline: none;
+}
+
+.box .inputBoxObs label
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;
+	pointer-events: none;
+}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label
+{
+	top: -18px;
+	left: 0;
+	color: #3E6D01;
+	font-size: 12px;
+}
+.box input[type="submit"]
+{
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #3E6D01;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.box input[type="date"]
+{
+	color: #3E6D01;
+	background: transparent;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.bottonDash
+{
+	margin: 0;
+	padding: 0;
+	background: #696C66;
+}
+
+.menu
+{
+	padding-right: 10px;
+}
+
+.navigation 
+{
+  	width: 240px;
+  }
+
+.mainmenu, .submenu 
+{
+ 	list-style: none;
+  	padding: 0;
+  	margin: 0;
+}
+
+.mainmenu a 
+{
+  	display: block;
+  	background-color: #3E6D01;
+  	text-decoration: none;
+  	padding: 10px;
+  	color: #000;
+}
+
+.mainmenu a:hover 
+{
+    background-color: #C5C5C5;
+}
+
+.mainmenu li:hover .submenu 
+{
+  	display: block;
+  	max-height: 200px;
+}
+
+.submenu a 
+{
+  	background-color: #999;
+}
+
+.submenu a:hover 
+{
+  	background-color: #666;
+}
+
+.submenu {
+  	overflow: hidden;
+  	max-height: 0;
+  	-webkit-transition: all 0.5s ease-out;
+}
